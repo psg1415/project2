@@ -1,0 +1,20 @@
+{% extends '../layout.html' %}
+{% block title %}
+<title>운동 관리</title>
+{% endblock %}
+{% block content %}
+  <form method="post" action="/exercise/exercise" target='ifrmHidden' class="exercise">
+		<table>
+			<thead>
+				<tr>
+					<th>날짜</th>
+					<th>운동시간</th>
+					<th>운동명</th>
+					<th>칼로리</th>
+					<th><span class='add btn'>추가</span></th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</form>
+{% endblock %}

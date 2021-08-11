@@ -1,0 +1,36 @@
+
+table {
+	border-spacing: 0;
+	padding: 0;
+	width: 700px;
+}
+table th, table td {
+	padding: 10px;
+}
+
+table th {
+	background-color: #E3FDFD;
+	color: #ffffff;
+}
+
+table td {
+	border-bottom: 1px solid #71C9CE;
+}
+
+input[type='text'] {
+	border: 1px solid #71C9CE;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.btn {
+	display: inline-block;
+	padding: 15px;
+	background-color: #d5d5d5;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.btn.add {
+	margin-bottom: 10px;
+}
